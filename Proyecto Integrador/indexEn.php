@@ -32,11 +32,6 @@ if (!isset($usuario)){
 						<li><a href="#">   Topics  </a></li>
 						<li><a href="index.php">   In Spanish  </a></li>
 						<li><a href="registrarvista.php">   Profile   </a></li>
-						<?php
-							session_start();
-							$usuario = $_SESSION['username'];
-						?>
-
 						<li style="color:#fff; justify-content:right; margin-left: 300px"><?php echo "<h1>Welcome $usuario !</h1>";?></li>
 						<li style="color:#fff; justify-content:right; margin-left: 50px"><?php echo "<a href= 'salir.php'>Close Session</a>";}?></li>
 					</ul>
@@ -86,7 +81,7 @@ if (!isset($usuario)){
 							Lorem ipsum, dolor sit amet coknsectetur
 							adipisicing elit. Cupiditate, autem animi.
 						</p>
-						<a href="#" class="btn-link">Read more!</a>
+						<a href="Hooke.html" class="btn-link">Read more!</a>
 					</div>
 				</article>
 

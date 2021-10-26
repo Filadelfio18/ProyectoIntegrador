@@ -71,7 +71,7 @@ if (!isset($usuario)){
 					<div class="contenedor-texto">
 						<div>
 							<h2 class="titulo">
-								<a href="#">Modelo de Hooke</a>
+								<a href="Hooke.html">Modelo de Hooke</a>
 							</h2>
 							<p class="fecha">
 								<time>Noviembre 13, 2019</time>
@@ -81,7 +81,7 @@ if (!isset($usuario)){
 							Lorem ipsum, dolor sit amet coknsectetur
 							adipisicing elit. Cupiditate, autem animi.
 						</p>
-						<a href="#" class="btn-link">Leer más</a>
+						<a href="Hooke.html" class="btn-link">Leer más</a>
 					</div>
 				</article>
 
@@ -140,7 +140,7 @@ if (!isset($usuario)){
 					</div>
 				</div>
 				<nav class="menu">
-					<a href="#">Modelo de Hooke</a>
+					<a href="Hooke.html">Modelo de Hooke</a>
 					<a href="#">Principio de Pascal</a>
 					<a href="#">Torricelli</a>
 				</nav>
