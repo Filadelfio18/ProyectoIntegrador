@@ -1,20 +1,28 @@
+
+  	.color1 {color: #06060e;}
+	.color2 {color: #322f3e;}
+	.color3 {color: #61597b;}
+	.color4 {color: #9b8fbe;}
+	.color5 {color: #d9c6e8;}
+
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+
 }
 
 body {
 	font-family: 'Roboto Condensed', sans-serif;
 	font-weight: 300;
-	background-image: repeating-linear-gradient(90deg, #fff, #fff 20px, #fbfbfb 20px, #fbfbfb 40px);
+	background-color: #06060e;;
 }
 
 img {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
-	
+
 }
 
 a {
@@ -72,6 +80,7 @@ a {
 	margin-bottom: 15px;
 }
 .menu {
+	background-color: #322f3e;
 	border-top: 1px solid #000;
 	border-bottom: 1px solid #000;
 	display: flex;
@@ -82,21 +91,22 @@ a {
 
 .menu ul li a{
 	padding: 10px;
-	color: #000;
+	color: #fff;
+	background-color: #322f3e;
 	display: inline-block;
 	text-decoration: none;
 	text-transform: uppercase;
-	font-weight: 400;
+	font-weight: lighter;
 	width: 100%;
 	text-align: center;
 	transition: 0.4s ease all;
 	font-size: 16px;
 }
 .menu ul li{
+	background-color: #322f3e;
 	text-align: right;
 	list-style:none;
 	display: inline-block;
-	column-span: ;
 }
 
 .menu-icon{
@@ -104,7 +114,7 @@ a {
 }
 
 .menu ul li a:hover {
-	background: #EC3;
+	background: #9b8fbe;
 	color: #000;
 }
 
@@ -146,7 +156,7 @@ span{
 
 .articulo .fecha {
 	font-size: 16px;
-	color: #868b8d;
+	color: #61597b;
 	margin-bottom: 10px;
 }
 
@@ -155,14 +165,14 @@ span{
 	line-height: 25px; 
 	font-weight: 300;
 	margin-bottom: 20px; 
-	color: #868b8d;
+	color: #9b8bfe;
 }
 
 /* ---------- Articulo Destacado ----------*/
 .articulo.destacado {
 	grid-area: destacado;
 	color: white;
-	background-color: #000;
+	background-color: #322f3e;
 	box-shadow: 0px 0px 70px rgba(102, 102, 102, 0.2);
 
 	display: grid;
@@ -188,7 +198,7 @@ span{
 	content: '';
 	margin: 0.625em 0; 
 	display: block;
-	background-color: #868686;
+	background-color: #61597b;
 	width: 6em; 
 	height: 1px;
 }
@@ -198,7 +208,7 @@ span{
 	cursor: pointer;
 	display: inline-block;
 	padding: 0.625em; 
-	background-color: #262626;
+	background-color: #61597b;
 	font-size: 1em; 
 	text-transform: uppercase;
 	letter-spacing: 1px;
@@ -206,7 +216,7 @@ span{
 }
 
 .btn-link:hover {
-	background: #000;
+	background: #322f3e;
 	text-decoration: none;
 }
 
@@ -225,7 +235,7 @@ span{
 	min-height: 100px; 
 	grid-area: aside;
 	background: #000;
-	color: #868b8d;
+	color: #61597b;
 	box-shadow: 0px 0px 70px rgba(102, 102, 102, 0.2);
 }
 
@@ -245,7 +255,7 @@ span{
 .sidebar .menu {
 	width: 100%;
 	display: inline-block;
-	background: #ccc;
+	background: #d9c6e8;
 }
 
 .sidebar .menu a {
@@ -258,7 +268,7 @@ span{
 }
 
 .sidebar .menu a:hover {
-	background: #262626;
+	background: #322f3e;
 }
 
 /*---------- FOOTER ----------*/
@@ -267,7 +277,7 @@ span{
 	font-size: 20px; 
 	grid-area: footer;
 	padding: 25px; 
-	text-align: right;
+	text-align: center;
 	box-shadow: 0px 0px 70px rgba(102, 102, 102, 0.2);
 }
 
