@@ -1,4 +1,9 @@
-
+<?php
+session_start();
+$usuario = $_SESSION['username'];
+if (!isset($usuario)){
+	header("location: registrarvista.php");
+}else{ ?>
 <!DOCTYPE html>
 <html lang="es">
 	<head>
@@ -27,13 +32,8 @@
 						<li><a href="#">   Temas  </a></li>
 						<li><a href="indexEn.php">   En Inglés  </a></li>
 						<li><a href="registrarvista.php">   Perfil   </a></li>
-						<?php
-							session_start();
-							$usuario = $_SESSION['username'];
-						?>
-
-						<li style="color:#fff; justify-content:right; margin-left: 200px"><?php echo "<h1>Bienvenido $usuario</h1>";?></li>
-						<li style="color:#fff; justify-content:right; margin-left: 100px"><?php echo "<a href= 'salir.php'>Cerrar Sesion</a>";?></li>
+						<li style="color:#fff; margin-left: 300px"><?php echo "<h1>Bienvenido $usuario !</h1>";?></li>
+						<li style="color:#fff; margin-left: 50px"><?php echo "<a href= 'salir.php'>Cerrar Sesion</a>";}?></li>
 					</ul>
 					
 				</nav>
@@ -158,9 +158,9 @@
 				<p></p>
 				<p style="font-weight: lighter;float: right; text-align: left;"><b>Programmed Physics realizado por :</b><br><br>
 					<b> - </b>NL 13<b>,</b> Estrada Marmolejo Leonardo<br>
+					<b> - </b>NL 15<b>,</b> Flores Martinez Leonardo Israel<br>
 					<b> - </b>NL 17<b>,</b> Gallegos Rangel Julio Alberto<br>
 					<b> - </b>NL 18<b>,</b> Gomaez Valdes Diego Enrique<br>
-					<b> - </b>NL<b>,</b> Flores Martinez Leonardo Israel<br>
 					<b> - </b>NL 30<b>,</b> Mora Castañeda Luis Enrique<br>
 					<br><br>
 				</p>

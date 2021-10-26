@@ -302,5 +302,6 @@ span{
 
 	.menu ul li {
 		display: block;
+		margin-left: 0px;
 	}
 }
