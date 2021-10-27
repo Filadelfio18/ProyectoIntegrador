@@ -15,7 +15,7 @@
      <div class="contenedor">
      
          <div class="input-contenedor">
-         <i class="fas fa-envelope icon"></i>
+         <i class="fas fa-user icon"></i>
          <input type="text" name="name" placeholder="Nombre">
          
          </div>

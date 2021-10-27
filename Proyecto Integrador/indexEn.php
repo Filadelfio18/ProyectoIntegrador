@@ -77,9 +77,8 @@ if (!isset($usuario)){
 								<time>Noviembre 13, 2019</time>
 							</p>
 						</div>
-						<p class="extracto">
-							Lorem ipsum, dolor sit amet coknsectetur
-							adipisicing elit. Cupiditate, autem animi.
+						<p class="extracto" style="text-align: justify;">
+							Hooke's Law of elasticity, or simply Hooke's Law, is the physical principle around the elastic behavior of solids. It was formulated in 1660 by the British scientist Robert Hooke, a contemporary of the famous Isaac Newton.
 						</p>
 						<a href="Hooke.html" class="btn-link">Read more!</a>
 					</div>

@@ -78,8 +78,7 @@ if (!isset($usuario)){
 							</p>
 						</div>
 						<p class="extracto">
-							Lorem ipsum, dolor sit amet coknsectetur
-							adipisicing elit. Cupiditate, autem animi.
+							La Ley de elasticidad de Hooke, o simplemente Ley de Hooke, es el principio físico en torno a la conducta elástica de los solidos Fue formulada en 1660 por el científico británico Robert Hooke, contemporáneo del célebre Isaac Newton.
 						</p>
 						<a href="Hooke.html" class="btn-link">Leer más</a>
 					</div>
