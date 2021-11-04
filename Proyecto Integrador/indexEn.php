@@ -27,13 +27,13 @@ if (!isset($usuario)){
 				<nav class="menu">
 					
 					<ul>
-						<li><input type="text" name="" style="margin: 10px; display: block;">
+						
 						<li><a href="index.php">   Home   </a></li>
 						<li><a href="#">   Topics  </a></li>
-						<li><a href="index.php">   In Spanish  </a></li>
+						<li><a href="index.php">   Change to: Spanish  </a></li>
 						<li><a href="registrarvista.php">   Profile   </a></li>
-						<li style="color:#fff; justify-content:right; margin-left: 300px"><?php echo "<h1>Welcome $usuario !</h1>";?></li>
-						<li style="color:#fff; justify-content:right; margin-left: 50px"><?php echo "<a href= 'salir.php'>Close Session</a>";}?></li>
+						<li style="color:#fff; margin-left: 300px"><?php echo "<h1>Welcome $usuario !</h1>";?></li>
+						<li style="color:#fff; margin-left: 50px"><?php echo "<a href= 'salir.php'>Close Session</a>";}?></li>
 					</ul>
 					
 				</nav>
@@ -51,8 +51,8 @@ if (!isset($usuario)){
 						Are you interested in physics?, You don't understand a certain topic?, or you just want to learn by yourself?<br>
 						We can help you here, at <b>Programmed Physics</b>. Take a look at the topics:<br>
 						<br>
-								<b>-</b><a href="#" style="color: #9b8fbe;">Hooke's Model</a><br>
-								<b>-</b><a href="#" style="color: #9b8fbe;">Pascal's Principle</a><br>
+								<b>-</b><a href="HookeEn.html" style="color: #9b8fbe;">Hooke's Model</a><br>
+								<b>-</b><a href="PascalEn.html" style="color: #9b8fbe;">Pascal's Principle</a><br>
 								<b>-</b><a href="#" style="color: #9b8fbe;">Torricelli</a><br>
 					</p>
 				</div>
@@ -74,7 +74,7 @@ if (!isset($usuario)){
 								<a href="#">Hooke's Model</a>
 							</h2>
 							<p class="fecha">
-								<time>Noviembre 13, 2019</time>
+								<time></time>
 							</p>
 						</div>
 						<p class="extracto" style="text-align: justify;">
@@ -94,12 +94,11 @@ if (!isset($usuario)){
 								<a href="#">Pascal's Principle</a>
 							</h2>
 							<p class="fecha">
-								<time>Noviembre 13, 2019</time>
+								<time></time>
 							</p>
 						</div>
 						<p class="extracto">
-							Lorem ipsum, dolor sit amet coknsectetur
-							adipisicing elit. Cupiditate, autem animi.
+							Pascal's Principle ensures that any change in the pressure exerted on a fluid at rest and confined within a container, is transmitted homogeneously to each point of the same, as long as the density of the fluid remains constant. Such a fluid is called 'incompressible'.
 						</p>
 						<a href="#" class="btn-link">Read more!</a>
 					</div>
@@ -115,7 +114,7 @@ if (!isset($usuario)){
 								<a href="#">Torricelli</a>
 							</h2>
 							<p class="fecha">
-								<time>Noviembre 13, 2019</time>
+								<time></time>
 							</p>
 						</div>
 						<p class="extracto">

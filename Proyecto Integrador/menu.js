@@ -18,8 +18,3 @@ jQuery('document').ready(function($){
     });
 });
 
-/*              FOOTER             */
-document.getElementById("foot01").innerHTML =
-"<p><br>Adaptación: Luis Enrique Mora Castañeda,  CBTIS 168,  Programación,  Aplicaciones Web con Base de Datos,  5L</p><br>"+
-"<p>Creditos al Profesor Manuel Chávez, por la plantilla utilizada en este proyecto</p><br>"+
-"<p>Iconos tomados de : https://www.flaticon.es</p>";

@@ -1,10 +1,14 @@
 
-  	.color1 {color: #06060e;}
-	.color2 {color: #322f3e;}
-	.color3 {color: #61597b;}
-	.color4 {color: #9b8fbe;}
-	.color5 {color: #d9c6e8;}
+/*
 
+#1dc983
+#d0c700
+#ff9332
+#2e2e2e
+#4b4b4b
+
+
+*/
 * {
 	margin: 0;
 	padding: 0;
@@ -15,7 +19,7 @@
 body {
 	font-family: 'Roboto Condensed', sans-serif;
 	font-weight: 300;
-	background-color: #06060e;;
+	background-color: #fff;
 }
 
 img {
@@ -80,7 +84,7 @@ a {
 	margin-bottom: 15px;
 }
 .menu {
-	background-color: #322f3e;
+	background-color: #2e2e2e ;
 	border-top: 1px solid #000;
 	border-bottom: 1px solid #000;
 	display: flex;
@@ -92,7 +96,7 @@ a {
 .menu ul li a{
 	padding: 10px;
 	color: #fff;
-	background-color: #322f3e;
+	background-color:  #2e2e2e ;
 	display: inline-block;
 	text-decoration: none;
 	text-transform: uppercase;
@@ -103,7 +107,7 @@ a {
 	font-size: 16px;
 }
 .menu ul li{
-	background-color: #322f3e;
+	background-color: #2e2e2e ;
 	text-align: right;
 	list-style:none;
 	display: inline-block;
@@ -114,7 +118,7 @@ a {
 }
 
 .menu ul li a:hover {
-	background: #9b8fbe;
+	background: #ffee00;
 	color: #000;
 }
 
@@ -156,7 +160,7 @@ span{
 
 .articulo .fecha {
 	font-size: 16px;
-	color: #61597b;
+	color: #95e986;
 	margin-bottom: 10px;
 }
 
@@ -165,14 +169,14 @@ span{
 	line-height: 25px; 
 	font-weight: 300;
 	margin-bottom: 20px; 
-	color: #9b8bfe;
+	color:#000 ;
 }
 
 /* ---------- Articulo Destacado ----------*/
 .articulo.destacado {
 	grid-area: destacado;
 	color: white;
-	background-color: #322f3e;
+	background-color:  #666666;
 	box-shadow: 0px 0px 70px rgba(102, 102, 102, 0.2);
 
 	display: grid;
@@ -191,24 +195,24 @@ span{
 }
 
 .destacado .titulo a {
-	color: #fff;
+	color: #1dc983;
 }
 
 .destacado .titulo::after {
 	content: '';
 	margin: 0.625em 0; 
 	display: block;
-	background-color: #61597b;
+	background-color: #ffee00 ;
 	width: 6em; 
 	height: 1px;
 }
 
 .btn-link {
-	color: #fff;
+	color: #000;
 	cursor: pointer;
 	display: inline-block;
 	padding: 0.625em; 
-	background-color: #61597b;
+	background-color: #ffee00 ;
 	font-size: 1em; 
 	text-transform: uppercase;
 	letter-spacing: 1px;
@@ -216,7 +220,7 @@ span{
 }
 
 .btn-link:hover {
-	background: #322f3e;
+	background: #ff9332;
 	text-decoration: none;
 }
 
@@ -235,7 +239,7 @@ span{
 	min-height: 100px; 
 	grid-area: aside;
 	background: #000;
-	color: #61597b;
+	color: #95e986;
 	box-shadow: 0px 0px 70px rgba(102, 102, 102, 0.2);
 }
 
@@ -255,7 +259,7 @@ span{
 .sidebar .menu {
 	width: 100%;
 	display: inline-block;
-	background: #d9c6e8;
+	background: #1dc983;
 }
 
 .sidebar .menu a {
@@ -268,7 +272,7 @@ span{
 }
 
 .sidebar .menu a:hover {
-	background: #322f3e;
+	background: #1dc983;
 }
 
 /*---------- FOOTER ----------*/
