@@ -13,7 +13,6 @@
 						<li><a href="index.php">   Inicio   </a></li>
 						<li><a href="#">   Temas  </a></li>
 						<li><a href="ejercicios.php"> Ejercicios </a></li>
-						<li><a href="indexEn.php">   Cambiar a: Inglés  </a></li>
 						<li><a href="registrarvista.php">   Perfil   </a></li>
 						
 					</ul>

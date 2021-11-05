@@ -1,9 +1,3 @@
-<?php
-session_start();
-$usuario = $_SESSION['username'];
-if (!isset($usuario)){
-	header("location: registrarvista.php");
-}else{ ?>
 <!DOCTYPE html>
 <html lang="es">
 	<head>
@@ -17,27 +11,12 @@ if (!isset($usuario)){
 	</head>
 	<body>
 		<div class="contenedor">
-			<header class="header">
-				<div class="logo">
-					<p class="iniciales-logo"><img src="img/logo.png" class="img-logo"></p>
-					<h1>Programmed Physics</h1>
-
-				</div>
-				<span class="menu-icon">M E N U</span>
-				<nav class="menu">
-					
-					<ul>
-						
-						<li><a href="index.php">   Home   </a></li>
-						<li><a href="#">   Topics  </a></li>
-						<li><a href="index.php">   Change to: Spanish  </a></li>
-						<li><a href="registrarvista.php">   Profile   </a></li>
-						<li style="color:#fff; margin-left: 300px"><?php echo "<h1>Welcome $usuario !</h1>";?></li>
-						<li style="color:#fff; margin-left: 50px"><?php echo "<a href= 'salir.php'>Close Session</a>";}?></li>
-					</ul>
-					
-				</nav>
+			<header class="header" id="header">
+				<?php require ("headerEn.php"); ?>
+				<a class="botonTraductor"  href="index.php"> Change to: Spanish </a><br><br>
+				<a class="botonTraductor"  href="#header">- UP -</a>
 			</header>
+
 
 			<article class="articulo destacado">
 				<div class="contenedor-texto">
@@ -51,9 +30,9 @@ if (!isset($usuario)){
 						Are you interested in physics?, You don't understand a certain topic?, or you just want to learn by yourself?<br>
 						We can help you here, at <b>Programmed Physics</b>. Take a look at the topics:<br>
 						<br>
-								<b>-</b><a href="HookeEn.html" style="color: #9b8fbe;">Hooke's Model</a><br>
-								<b>-</b><a href="PascalEn.html" style="color: #9b8fbe;">Pascal's Principle</a><br>
-								<b>-</b><a href="#" style="color: #9b8fbe;">Torricelli</a><br>
+								<b>-</b><a href="HookeEn.html" style="color: #d0c700;">Hooke's Model</a><br>
+								<b>-</b><a href="PascalEn.html" style="color: #d0c700;">Pascal Principle</a><br>
+								<b>-</b><a href="#" style="color: #d0c700 ;">Torricelli</a><br>
 					</p>
 				</div>
 				<div class="contenedor-thumbnail">
@@ -80,7 +59,7 @@ if (!isset($usuario)){
 						<p class="extracto" style="text-align: justify;">
 							Hooke's Law of elasticity, or simply Hooke's Law, is the physical principle around the elastic behavior of solids. It was formulated in 1660 by the British scientist Robert Hooke, a contemporary of the famous Isaac Newton.
 						</p>
-						<a href="Hooke.html" class="btn-link">Read more!</a>
+						<a href="HookeEn.php" class="btn-link">Read more!</a>
 					</div>
 				</article>
 
@@ -100,7 +79,7 @@ if (!isset($usuario)){
 						<p class="extracto">
 							Pascal's Principle ensures that any change in the pressure exerted on a fluid at rest and confined within a container, is transmitted homogeneously to each point of the same, as long as the density of the fluid remains constant. Such a fluid is called 'incompressible'.
 						</p>
-						<a href="#" class="btn-link">Read more!</a>
+						<a href="PascalEn.php" class="btn-link">Read more!</a>
 					</div>
 				</article>
 
@@ -127,43 +106,11 @@ if (!isset($usuario)){
 			</main>
 
 			<aside class="sidebar">
-				<div class="acerca-de">
-					<img src="./img/logo.png" class="img-perfil" alt="" style="background-color: #FEFEFE; object-fit:scale-down;">
-
-					<div class="bio">
-						<p class="titulo"> -- Programmed Physics -- </p>
-						<p>
-							Links to the rest of the topics:
-						</p>
-					</div>
-				</div>
-				<nav class="menu">
-					<a href="#">Hooke's Model</a>
-					<a href="#">Pascal's Principle</a>
-					<a href="#">Torricelli</a>
-				</nav>
+				<?php require("sidebarEn.php"); ?>
 			</aside>
 
 			<footer class="footer">
-				
-				<p style="font-weight: bold;">CBTIS 168<br>
-					Programación, 5°L</p><br>
-				<p style="font-weight: lighter;float: left; text-align: left;"><b>Subjects of the Integrating Project:</b><br><br>
-					<b> - </b>English V<b>,</b> Dr. José Antonio Saldivar Cervantes<br>
-					<b> - </b>Physics II<b>,</b> Dr. Octavio Hernández Castorena<br>
-					<b> - </b>Web Apps with Databases<b>,</b> M.C. Manuel López Chávez<br>
-				</p>
-				<p></p>
-				<p style="font-weight: lighter;float: right; text-align: left;"><b>Programmed Physics was made by :</b><br><br>
-					<b> - </b>NL 13<b>,</b> Estrada Marmolejo Leonardo<br>
-					<b> - </b>NL 15<b>,</b> Flores Martinez Leonardo Israel<br>
-					<b> - </b>NL 17<b>,</b> Gallegos Rangel Julio Alberto<br>
-					<b> - </b>NL 18<b>,</b> Gomaez Valdes Diego Enrique<br>
-					<b> - </b>NL 30<b>,</b> Mora Castañeda Luis Enrique<br>
-					<br><br>
-				</p>
-				
-			
+				<?php require("footerEn.php"); ?>
 			</footer>
 		</div>
 		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>

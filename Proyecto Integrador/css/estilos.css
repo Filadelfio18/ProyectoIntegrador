@@ -92,6 +92,18 @@ a {
 	justify-content: center;
 	text-decoration: none;
 }
+.botonTraductor{
+	padding: 7px;
+	color: #fff;
+	background-color: #1dc983 ;
+	text-align: center;
+	font-size: 16px;
+	float: right;
+	position: fixed;
+	margin-top: 2.5px;
+	margin-left: 1050px;
+	color:  #000;
+}
 
 .menu ul li a{
 	padding: 10px;

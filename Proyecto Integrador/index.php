@@ -11,8 +11,10 @@
 	</head>
 	<body>
 		<div class="contenedor">
-			<header class="header">
-			<?php require ("header.php"); ?>
+			<header class="header" id="header">
+				<?php require ("header.php"); ?>
+				<a class="botonTraductor"  href="indexEn.php"> Cambiar a: Inglés </a><br><br>
+				<a class="botonTraductor"  href="#header"> Subir </a>
 			</header>
 
 			<article class="articulo destacado">
@@ -27,8 +29,8 @@
 						¿Te interesa la fisica?, ¿No entiendes algun tema?, ¿Quieres aprender por tu cuenta?<br>
 						Aqui en <b>Programmed Physics</b> podemos ayudarte. Mira nuestros contenidos sobre:<br>
 						<br>
-								<b>-</b><a href="Hooke.html" style="color: #d0c700;">Modelo de Hooke</a><br>
-								<b>-</b><a href="Pascal.html" style="color: #d0c700;">Principio de Pascal</a><br>
+								<b>-</b><a href="Hooke.php" style="color: #d0c700;">Modelo de Hooke</a><br>
+								<b>-</b><a href="Pascal.php" style="color: #d0c700;">Principio de Pascal</a><br>
 								<b>-</b><a href="#" style="color: #d0c700 ;">Modelo de Torricelli</a><br>
 					</p>
 				</div>
@@ -47,7 +49,7 @@
 					<div class="contenedor-texto">
 						<div>
 							<h2 class="titulo">
-								<a href="Hooke.html">Modelo de Hooke</a>
+								<a href="Hooke.php">Modelo de Hooke</a>
 							</h2>
 							<p class="fecha">
 								<time>1660</time>
@@ -56,7 +58,7 @@
 						<p class="extracto">
 							La Ley de elasticidad de Hooke, o simplemente Ley de Hooke, es el principio físico en torno a la conducta elástica de los solidos Fue formulada en 1660 por el científico británico Robert Hooke, contemporáneo del célebre Isaac Newton.
 						</p>
-						<a href="Hooke.html" class="btn-link">Leer más</a>
+						<a href="Hooke.php" class="btn-link">Leer más</a>
 					</div>
 				</article>
 
@@ -76,7 +78,7 @@
 						<p class="extracto">
 							El Principio de Pascal asegura que todo cambio en la presión ejercida sobre un fluido en reposo y confinado dentro de un recipiente, se transmite homogéneamente a cada punto del mismo, siempre y cuando la densidad del fluido se mantenga constante.
 						</p>
-						<a href="#" class="btn-link">Leer más</a>
+						<a href="Pascal.php" class="btn-link">Leer más</a>
 					</div>
 				</article>
 
@@ -103,27 +105,13 @@
 			</main>
 
 			<aside class="sidebar">
-				<div class="acerca-de">
-					<img src="./img/logo.png" class="img-perfil" alt="" style="background-color: #FEFEFE; object-fit:scale-down;">
-
-					<div class="bio">
-						<p class="titulo"> -- Programmed Physics -- </p>
-						<p>
-							Links a los temas :
-						</p>
-					</div>
-				</div>
-				<nav class="menu">
-					<a href="Hooke.html">Modelo de Hooke</a>
-					<a href="Pascal.html">Principio de Pascal</a>
-					<a href="#">Torricelli</a>
-				</nav>
+				<?php require ("sidebar.php") ?>
 			</aside>
 
 			<footer class="footer">
 				<?php require ("footer.php"); ?>
 			</footer>
-			
+
 		</div>
 		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 		<script src="menu.js"></script>
