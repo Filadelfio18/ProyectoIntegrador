@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700&display=swap" rel="stylesheet"/>
     <link rel="shortcut icon" href="img/logo.png">
-    <link rel="stylesheet" href="./css/estilos.css" />
+    <link rel="stylesheet" href="estilos.css" />
     <title>Proyecto Integrador</title>
   </head>
   <body>
@@ -135,7 +135,7 @@
                             $mensaje =" Aprobaste pero te falta seguir estudiando";
                           }
                           if ($puntos == 10){
-                            $mensaje =" Exelente Trabajo";
+                            $mensaje =" Excelente Trabajo";
                           }
 
                           echo (" $puntos "); 

@@ -6,14 +6,14 @@
 		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
 		<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700&display=swap" rel="stylesheet"/>
 		<link rel="shortcut icon" href="img/logo.png">
-		<link rel="stylesheet" href="./css/estilos.css" />
+		<link rel="stylesheet" href="estilos.css" />
 		<title>Integrating Project</title>
 	</head>
 	<body>
 		<div class="contenedor">
 			<header class="header" id="header">
 				<?php require("headerEn.php"); ?>
-				<a class="botonTraductor"  href="PascalEn.php"> Change to: Spanish</a><br><br>
+				<a class="botonTraductor"  href="Pascal.php"> Change to: Spanish</a><br><br>
 				<a class="botonTraductor"  href="#header"> Up </a>
 			</header>
 

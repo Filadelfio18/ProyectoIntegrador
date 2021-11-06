@@ -1,5 +1,4 @@
 <?php ?>
-
 				<div class="logo">
 					<p class="iniciales-logo"><img src="img/logo.png" class="img-logo"></p>
 					<h1>Programmed Physics</h1>
@@ -8,10 +7,15 @@
 				<span class="menu-icon">M E N U</span>
 				<nav class="menu">
 					
-					<ul>
+					<ul class="menu">
 						
-						<li><a href="index.php">   Inicio   </a></li>
-						<li><a href="#">   Temas  </a></li>
+						<li><a href="index.php"> Inicio  </a></li>
+						<li><a href="#">   Temas  </a>
+							<ul class="submenu">
+								<li><a href="Hooke.php">Modelo de Hooke</a></li>
+								<li><a href="Pascal.php">Principio de Pascal</a></li>
+								<li><a href="#">Torricelli</a></li>
+							</ul></li>
 						<li><a href="ejercicios.php"> Ejercicios </a></li>
 						<li><a href="registrarvista.php">   Perfil   </a></li>
 						
