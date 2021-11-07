@@ -14,7 +14,7 @@
 			<header class="header" id="header">
 				<?php require ("header.php"); ?>
 				<a class="botonTraductor"  href="indexEn.php"> Cambiar a: Inglés </a><br><br>
-				<a class="botonTraductor"  href="#header"> Subir </a>
+				<a class="botonSubir"  href="#header"> Subir </a>
 			</header>
 
 			<article class="articulo destacado">
@@ -36,7 +36,7 @@
 				</div>
 				<div class="contenedor-thumbnail">
 					<a href="#">
-						<img src="./img/logo.png" alt="" style="border-radius: 50%; height: 250px; margin-top: 30px; margin-left: -25px; background-color: #FEFEFE; object-fit:scale-down;">
+						<img src="./img/logo.png" alt="" style="border-radius: 50%; height: 250px; margin-top: 30px; margin-left: -25px; background-color: #FEFEFE; object-fit:scale-down;" alt="Logo Prgrammed Physics">
 					</a>
 				</div>
 			</article>
@@ -44,7 +44,7 @@
 			<main class="contenido">
 				<article class="articulo">
 					<div class="contenedor-thumbnail">
-						<a href="#"><img src="./img/resorte.jpg" alt="" style="border-radius: 3%;" ></a>
+						<a href="#"><img src="./img/resorte.jpg" alt="Imegn de un resorte" style="border-radius: 3%;" ></a>
 					</div>
 					<div class="contenedor-texto">
 						<div>
@@ -64,7 +64,7 @@
 
 				<article class="articulo">
 					<div class="contenedor-thumbnail">
-						<a href="#"><img src="./img/prensaHidraulica.jpg" alt="" /></a>
+						<a href="#"><img src="./img/prensaHidraulica.jpg" alt="Imagen de una prensa hidraulica" /></a>
 					</div>
 					<div class="contenedor-texto">
 						<div>

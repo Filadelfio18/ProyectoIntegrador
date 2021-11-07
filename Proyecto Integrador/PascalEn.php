@@ -14,7 +14,7 @@
 			<header class="header" id="header">
 				<?php require("headerEn.php"); ?>
 				<a class="botonTraductor"  href="Pascal.php"> Change to: Spanish</a><br><br>
-				<a class="botonTraductor"  href="#header"> Up </a>
+				<a class="botonSubir"  href="#header">- Up -</a>
 			</header>
 
 			<article class="articulo destacado">

@@ -14,7 +14,7 @@
 			<header id="header" class="header" id="header">
 				<?php require ("header.php"); ?>
 				<a class="botonTraductor"  href="HookeEn.php"> Cambiar a: Inglés </a><br><br>
-				<a class="botonTraductor"  href="#header"> Subir </a>
+				<a class="botonSubir"  href="#header"> Subir </a>
 			</header>
 
 			<article class="articulo destacado">
@@ -124,17 +124,14 @@
 
 			</main>
 
-			<aside class="sidebar" style="width: 80%; justify-content: right;">
+			<aside class="sidebar" style="width: 90%; justify-content: right;">
 				<?php require("sidebar.php"); ?>
 				<a href="https://phet.colorado.edu/sims/html/hookes-law/latest/hookes-law_es.html" target="_blank" style="font-size: 28px;"> >> Da clic para acceder a un simulador << </a>
 				
 			</aside>
 
 			<footer class="footer">
-				
 				<?php require("footer.php"); ?>
-				
-			
 			</footer>
 		</div>
 		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>

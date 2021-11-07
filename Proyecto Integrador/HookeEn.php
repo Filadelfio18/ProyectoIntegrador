@@ -14,7 +14,7 @@
 			<header id="header" class="header">
 				<?php require("headerEn.php"); ?>
 				<a class="botonTraductor"  href="Hooke.php"> Change to: Spanish </a><br><br>
-				<a class="botonTraductor"  href="#header"> - UP - </a>
+				<a class="botonSubir"  href="#header"> - UP - </a>
 			</header>
 
 			
