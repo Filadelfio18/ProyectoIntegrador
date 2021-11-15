@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-image: url("https://okdiario.com/img/2017/02/01/fisica-fuerzas-fundamentales-655x368.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+* {
+    box-sizing: border-box;
+}
+.contenedor{
+    width: 100%;
+    padding: 15px;
+}
+.formulario{
+    background:black;
+    margin-top: 150px;
+    padding: 3px;
+}
+h1{
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+}
+input[type="text"],
+input[type="password"]{
+    color: #fff;
+    background-color: black;
+    font-size: 20px;
+    width: 82%;
+    padding: 10px;
+    border: none;
+}
+.input-contenedor{
+    margin-bottom: 15px;
+    border: 1px solid white;
+}
+.icon{
+    min-width: 50px;
+    text-align: center;
+    color: #fff;
+}
+.button{
+    border: none;
+    width: 100%;
+    color: #fff;
+    font-size: 20px;
+    background: gray;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button:hover{
+    background: black;
+}
+a{
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+  }
+p{
+    color: #fff;
+    text-align: center;
+}
+.link{
+    text-decoration: none;
+      color: white;
+    font-weight: 600;
+}
+.link:hover{
+     color: white;
+}
+@media(min-width:768px)
+{
+    .formulario{
+        margin: auto;
+        width: 500px;
+        margin-top: 150px;
+        border-radius: 2%;
+    }
+}
